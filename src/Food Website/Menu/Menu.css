@@ -1,0 +1,41 @@
+.menu-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.menu-main{
+    border: 1.7px solid black;
+    margin: 30px;
+    min-width: 100px;
+    margin-top: 35px;
+}
+.menu-price{
+    line-height:2.5;
+}
+.menu-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+ 
+}
+.menu-btn{
+    align-items: center;
+    background-color: rgb(33, 33, 218);
+    color: white;
+    border:1px solid black ;
+    border-radius: 3px;
+    margin:10px;
+    padding: 7px;
+    width: 150px;
+    font-size: 15px;
+}
+.menu-btn:hover{
+
+    background-color: rgb(14, 14, 100);
+
+}
+.remove{
+    background-color: red;
+}

@@ -1,0 +1,55 @@
+.register-header{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+
+}
+
+.register-header .register-form {
+    display: flex;
+    flex-direction:column;
+    border: 1px solid black;
+    gap: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.register-form input{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.register-header h2{
+    font-size: 23px;
+}
+
+.register-form .register a{
+    display: flex;
+    justify-content: space-evenly;
+}
+.register-footer{
+    display: flex;
+    gap: 20px;
+}
+
+.register-header button{
+    border: 1px solid black;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 3px;
+}
+
+.register-header button{
+    align-items: center;
+    background-color: rgb(33, 33, 218);
+    color: white;
+    border:1px solid black ;
+}
+.register-header button:hover{
+
+    background-color: rgb(14, 14, 100);
+
+}

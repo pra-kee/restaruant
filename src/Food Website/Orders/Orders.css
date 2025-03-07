@@ -1,0 +1,103 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cart-img{
+    display: flex;
+    min-width: 5vw;
+    justify-content: center;
+
+}
+
+.cart-list ul .cart-img{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+    border: 0.5px solid black;
+    padding:5px;
+    margin: 25px;
+}
+
+.cart-btn{
+    padding-top: 30px;
+}
+.order-container h1{
+text-align: center;
+}
+
+.baby{
+    display: flex;
+    margin:10px;
+    gap: 10px;
+}
+
+.cart-qty {
+    font-size: 15px;
+}
+
+.close{
+    display: none;
+}
+.open {
+    display: flex;
+    justify-content: center;
+}
+
+.open button {
+    background-color: rgb(33, 33, 218);
+    color: white;
+    border:1px solid black ;
+    border-radius: 3px;
+    margin:10px;
+    padding: 7px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.open button:hover{
+
+    background-color: rgb(14, 14, 100);
+
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left:30px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.order-error{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    color: rgb(250, 12, 12);
+}
+
+.delete-btn-move{
+    background-color:red;
+    color:white;
+}
+
+.btnnPlus,.btnnMin{
+background-color:yellow;
+color:black;
+}
+
+.delete-btn-move,
+.btnnMin,.btnnPlus{
+padding:6px 10px;
+cursor: pointer;
+margin: 3px;
+font-size: 13px;
+text-transform: capitalize;
+}

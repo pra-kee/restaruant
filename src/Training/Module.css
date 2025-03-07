@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-module1{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgb(27, 28, 46) ;
+    border-bottom: 2px solid  rgb(27, 28, 46)  ;
+}
+
+.para1{
+    
+    margin:20px;
+    font-size: 25px;
+    color: rgb(255, 218, 10);
+    font-weight: 500px;
+    gap: 10px;
+    padding:5px;
+    font-weight: normal;
+    line-height:1.5;
+}
+span{
+
+    font-size: 15px;
+    color: white;
+}
+
+.main-module2{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgb(25, 25, 37);
+    color: white;
+}
+.main-para2{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+input[type="number"]{
+
+    width: 146px;
+}
+
+input[type="number"],select,optgroup{
+
+    background: transparent;
+    border: 2px solid black;
+    padding: 10px;
+    color: white;
+}.main-label ,p{
+    padding: 15px;
+}
+
+.main-check input p {
+
+    padding: 20px;
+
+}
+
+.main-btn{
+
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.main-btn button{
+
+    padding: 10px;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: blue;
+    border: none;
+}
+

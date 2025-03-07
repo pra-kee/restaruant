@@ -1,0 +1,44 @@
+.forget-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 150px;
+    font-size: 20px;
+}
+
+.forget-section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.forget-section input{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.forget-btn{
+    padding-top: 20px;
+}
+
+.forget-sms{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.forget-btn button{
+    align-items: center;
+    background-color: rgb(33, 33, 218);
+    color: white;
+    border:1px solid black ;
+    padding: 5px;
+}
+.forget-btn button:hover{
+    background-color: rgb(14, 14, 100);
+
+}

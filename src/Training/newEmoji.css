@@ -1,0 +1,82 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+
+}
+
+.text-head{
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text-section{
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.text-button{
+    padding:10px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text-button button{
+    font-size: 40px;
+    background-color: aqua;
+    border: none;
+}
+
+.text-input1,.text-input2{
+    padding: 20px;
+}
+
+input{
+    width: 350px;
+    height: 50px;
+    border-radius:20px;
+    border: none;
+    border: 1.5px solid black;
+    
+}
+
+input[type="text"]{
+    padding-left: 30px;
+    font-size: 30px;
+    background-color: white;
+    border: 2px solid ;
+}
+
+.text-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+    padding: 20px;
+}
+
+.text-total button{
+    padding: 10px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    background-color:white;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.text-message{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+.text-input1,.text-input2{
+    text-align: center;
+} */

@@ -1,0 +1,199 @@
+:root{
+    --yellow:#fed330;
+    --red:#e74c3c;
+    --white:#fff;
+    --black:#222;
+    --light-color:#777;
+    --border:.2rem solid var(--black);
+ }
+ 
+ *{
+    font-family: 'Rubik', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;   
+ }
+ 
+ .order-error2{
+   font-size: 22px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 70vh;
+   color: rgb(250, 12, 12);
+
+}
+
+ html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+ }
+ 
+ ::-webkit-scrollbar{
+    height: .5rem;
+    width: 0.5rem;
+ }
+ 
+ ::-webkit-scrollbar-track{
+    background-color: transparent;
+ }
+ 
+ ::-webkit-scrollbar-thumb{
+    background-color: rgb(187, 185, 185);
+    border-radius: 5rem;
+ }
+ 
+
+ .checkout section{
+    max-width: 15rem;
+    margin:0 auto;
+    border:var(--border);
+    padding:1rem;
+ }
+ 
+ .checkout section .cart-items{
+    background-color: var(--black);
+    padding:1rem;
+ }
+ 
+ .checkout section .cart-items h3{
+    font-size: 1rem;
+    color:var(--white);
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+ }
+ 
+ .checkout section .cart-items p{
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin:1rem 0;
+    line-height: 1.5;
+    font-size: 0.8rem;
+ }
+ 
+ .checkout section .cart-items p .name{
+   display: flex;
+   gap:0.7rem;
+   color:var(--white);
+ }
+ 
+ 
+ .checkout section .cart-items p .price{
+    color:var(--yellow);
+ }
+ .checkout section .cart-items .grand-total{
+    background-color:var(--white);
+    padding:6px;
+ }
+ 
+ .checkout section .cart-items .grand-total .name{
+    color:var(--black);
+ }
+ 
+ .checkout section .cart-items .grand-total .price{
+    color:var(--red);
+ }
+ 
+ .checkout section .user-info h3{
+    font-size: 1rem;
+    margin: 1rem 0;
+    color:var(--black);
+    text-transform: capitalize;
+    
+ }
+ .checkout section .user-info .machi{
+   font-size: 0.7rem;
+ }
+ .checkout section .user-info p,h1{
+    font-size: 0.8rem;
+    margin:1rem 0;
+ }
+ .checkout section .order-btn{
+ 
+    line-height: 1.5;
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-size: xx-large;
+    text-align: center;
+ }
+ 
+ 
+ .checkout section .user-info p span{
+    color:var(--black);
+ }
+ 
+ .checkout section .user-info p i{
+    color:var(--light-color);
+    margin-right: 0.5rem;
+ }
+ 
+ .checkout section .user-info .box{
+    width: 100%;
+    border:var(--border);
+    padding:1.4rem;
+    color:var(--black);
+    font-size: 0.7rem;
+    margin-top: 2rem;
+ }
+ .order-btn button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 13px 0;
+  background:#6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+ }
+ 
+ 
+ 
+ .order-btn :hover{
+    background: #d45062 ;
+ }
+ 
+ 
+ 
+ .btn:hover{
+    background:#6fd649 ;
+    
+ 
+ 
+ }
+ 
+ h1{
+    font-size:xx-large;
+    text-align: center;
+ }
+ h2{
+    font-size:x-large ;
+ }
+ .order-summary-btn button{
+   background-color: rgb(33, 33, 218);
+   color: white;
+   border:1px solid black ;
+   border-radius: 3px;
+   padding: 7px;
+   width: 150px;
+   font-size: 15px;
+  }
+  .order-summary-btn button:hover{
+
+   background-color: rgb(14, 14, 100);
+
+}
+
+  .order-summary-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+  }

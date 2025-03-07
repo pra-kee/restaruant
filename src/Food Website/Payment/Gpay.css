@@ -1,0 +1,66 @@
+.app-container24{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 15rem;
+    margin:0 auto;
+    border:var(--border);
+    padding:1rem;
+}
+
+.input1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.input2 label h3{
+
+    font-size: 10.7px;
+}
+.input2{
+    padding: 3px;
+    padding-bottom: 20px;
+}
+.price{
+    color: rgb(224, 15, 15);
+}
+.rupees{
+    font-size: 14px;
+}
+.btn1{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+.qr-btn2,.qr-btn1{
+   background-color: rgb(33, 33, 218);
+   color: white;
+   border:1px solid black ;
+   border-radius: 3px;
+   padding: 5px;
+   width: 150px;
+   font-size:15px;
+}
+
+.btn1 {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   }
+
+.qr-btn2:hover{
+    background-color: rgb(14, 14, 100);
+}
+
+.qr-btn1:hover{
+    background-color: rgb(14, 14, 100);
+}
+
+.qr-btn2 {
+    display: none;
+}

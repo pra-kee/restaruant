@@ -1,0 +1,47 @@
+/* *{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    align-items:center;
+    margin: 6.8px;
+    
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.card-main img{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:2px solid white;
+    margin-top: 20px;
+
+}
+
+.card {
+    border: 2px solid black;
+    background-color: rgb(173, 36, 214);
+}
+
+.review h4{
+    line-height:1.5;
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+ */

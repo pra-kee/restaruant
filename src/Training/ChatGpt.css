@@ -1,0 +1,65 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    text-align: center;
+    padding-top: 200px;
+    font-size: xx-large;
+
+}
+
+.main-btn{
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+}
+.main-btn:hover{
+
+    background-color: black;
+    color: white;
+}
+
+ */
+/* .header{
+    padding: 100px;
+    text-align: center;
+   
+    
+}
+
+button{
+    margin: 10px;
+
+}
+
+.alert{
+    color:red;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.btn-1,.btn-2{
+    
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.btn-2:hover{
+    color: red;
+    background-color: aquamarine;
+}
+
+.btn-1:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+
+.li{
+    font-size: 28px;
+   margin-top: 15px;
+} */

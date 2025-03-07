@@ -1,0 +1,364 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+.home-nav{
+    background-color: black;
+    color: white;
+}
+
+.heading{
+    font-size: 50px;
+}
+.oii-pk{
+    display: flex;
+    list-style: none;  
+    justify-content:end;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cart-shopping {
+   display: flex;
+   font-size: 30px;
+   margin-left:20px;
+   padding: 10px;
+   justify-content:space-between;
+}
+.shopping-btn a{
+    color:white;
+    margin: 10px;
+}
+.home-nav ul li{
+    justify-content: space-around;
+}
+.home-nav ul li a{
+list-style: none;
+text-decoration: none;
+color: white;
+font-size: 25px;
+}
+
+
+.cart-shopping a{
+    color: white;
+    text-decoration: none;
+}
+
+.cart-count{
+    font-size: 25px;
+
+    margin-left: 7px;
+}
+.header-menu{
+    cursor: pointer;
+    display: none;
+}
+@media (max-width:515px){
+
+    .cart-shopping {
+        flex-direction:column;
+        font-size: 38px;
+        row-gap: 10px;
+        align-items: center;
+    }
+    .heading{
+        padding-top: 10px;
+        flex-direction:column;
+        font-size: 50px;
+        text-align: center;
+    }
+    .header-menu{
+        display:inline-block;
+    }
+    .home-nav ul{
+        flex-direction:column;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .home-nav ul li {
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 10px;
+
+    }
+    .love{
+        display:none;
+    }
+    .cart-count{
+        font-size: 15px;
+        margin-left: 7px;
+    }
+
+}
+  */
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+.home-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.container-2 ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    font-size: 18px;
+
+}
+
+.container-2 ul li a {
+    display: flex;
+    color: white;
+    padding: 7px;
+}
+
+
+.shopping-btn a{
+    padding: 5px;
+    color: white;
+    font-size: 24px;
+}
+.heading{
+    font-size: 30px;
+}
+
+.cart-count{
+    font-size: 10px;
+    margin-left: 2px;
+}
+.header-menu{
+    display:none;
+    font-size: 50px;
+}
+
+.cancel{
+    color: red;
+}
+
+.delete-btn,
+.btnn{
+   display: inline-block;
+   margin-top: 0.5rem;
+   padding:10px 15px;
+   margin: 10px;
+   cursor: pointer;
+   font-size: 15px;
+   text-transform: capitalize;
+}
+
+.delete-btn{
+   background-color:red;
+   color:white;
+}
+
+.btnn{
+   background-color:yellow;
+   color:black;
+}
+
+.delete-btn:hover,
+.btnn:hover{
+   letter-spacing: .2rem;
+}
+.profile1{
+    display: none;
+}
+.account-error{
+    color: red;
+    font-size: 18px;
+}
+.profile{
+padding:0.5rem;
+text-align: center;
+position:absolute;
+top: 10%;
+right: 1rem;
+width: 15rem;
+background-color:#ffffff;
+border: 0.1px solid black;
+}
+
+.profile .name{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 1rem;
+}
+.profile .account{
+    margin-top: 0.5rem;
+    font-size: 0.rem;
+    color: red;
+}
+.profile .account a{
+    color: black;
+    padding: 10px;
+}
+
+@media (max-width:690px){
+
+    .container-2 ul{ 
+        display:none;
+        flex-direction:column;
+        margin-top: 50px;
+        font-size: 20px;
+        
+    }
+    /* .home-nav .container-2{
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+    } */
+    
+    .container-2 .love{
+        display:flex;
+    }
+    .heading{
+        font-size: 21px;
+    }    
+    .header-menu{
+        display:inline-block;
+    }
+    .shopping-btn a{
+        font-size: 17px;
+    }
+    .map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-left:30px;
+        padding: 15px;
+        margin: 10px;
+        font-size: 13px;
+    }
+    
+    .cart-qty{
+        font-size: 0.8rem;
+    }
+    .checkout form .cart-items p{
+        display: flex;
+        gap:1.5rem;
+        align-items: center;
+        justify-content: space-between;
+        margin:1rem 0;
+        line-height: 1.5;
+        font-size: 0.8rem;
+     }
+     .checkout form .cart-items .grand-total{
+        background-color:var(--white);
+        padding:5px;
+     }
+    .home-see img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .login-footer p{
+        font-size: 12.6px;
+    }
+    
+    .login-footer :link{
+        font-size: 12.6px;
+    }
+    .search-bar input{
+        display: flex;
+        border: 0.5px solid black;
+        font-size: 15px;
+        padding: 10px;
+        max-width: 300px;
+        align-items: center;
+    }
+    .profile{
+        padding:0.5rem;
+        text-align: center;
+        position:absolute;
+        top: 10%;
+        right: 2.5rem;
+        width: 11rem;
+        background-color:#ffffff;
+        border: 0.1px solid black;
+        }
+        .profile .name{
+            font-size: 15px;
+            color: black;
+            margin-bottom: 0.1rem;
+        }
+        .profile .account{
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            color: red;
+        }
+        .profile .account a{
+            color: black;
+            padding: 5px;
+        }
+        
+        .delete-btn,
+        .btnn{
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding:5px 10px;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 10px;
+        text-transform: capitalize;
+        }
+
+        .delete-btn{
+        background-color:red;
+        color:white;
+        }
+
+        .btnn{
+        background-color:yellow;
+        color:black;
+        }
+
+        .delete-btn:hover,
+        .btnn:hover{
+        letter-spacing: .1rem;
+        } 
+}
+
+@media  (max-width:753px){
+    .profile{
+        padding:0.5rem;
+        text-align: center;
+        position:absolute;
+        top: 10%;
+        right: 2.5rem;
+        width: 13rem;
+        background-color:#ffffff;
+        border: 0.1px solid black;
+        }
+        .delete-btn,
+        .btnn{
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding:5px 10px;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 13px;
+        text-transform: capitalize;
+        }
+}
+
+.noti{
+    width: 100px;
+    background-color: red;
+}

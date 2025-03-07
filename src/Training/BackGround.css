@@ -1,0 +1,56 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.bg-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top:100px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-h1{
+    color: black;
+    padding-bottom:20px;
+}
+
+.bg-para{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.bg-button{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.bg-button button{
+    font-size: 17px;
+
+}
+
+
+.bg-msg p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.bg-rs{
+text-align: center;
+margin-top: 230px;
+}
+
+.bg-rs button{
+    font-size: 20px;
+} */

@@ -1,0 +1,73 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table td{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+table td:first-child{
+    font-weight: 600;
+}
+
+form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 15px;
+    margin: 10px;
+}
+form div{
+    padding-top: 10px;
+}
+
+
+ */
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+ }
+
+ table tr{
+    border: 1px solid black;
+    
+    
+ }
+ table td:first-child{
+    font-weight: 600;
+ }
+
+ table td{
+    border: 1px solid black;
+    padding: 10px;
+ }
+
+ form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    padding: 5px;
+ }
+
+ .mdg1 label{
+    display: flex;
+    flex-direction: column;
+ }
+
